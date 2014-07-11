@@ -8,6 +8,8 @@
 	+-- typo3
 	|   +-- fileadmin
 	|	|   +-- ext_key
+	|	|   	+-- Resources
+	|	|		.
 	|   +-- typo3conf
 	|   	+-- ext
 	|		|	+-- builder
@@ -19,3 +21,5 @@
 	|		|	+-- tcontent [2]
 	|   	+-- LocalConfiguration.php
 	|   	+-- AdditionalConfiguration.php	
+	.
+	
