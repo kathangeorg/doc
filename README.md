@@ -119,20 +119,28 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
 ##### Templates and Configuration
 
 <code>Configuration/TypoScript/constants.txt</code> and <code>Configuration/TypoScript/setup.txt</code>  
-Contain the default TS configuration:
+Contain the default TS configuration:  
     
     plugin.tx_tpages {
         view {
-        ...
+        [...]
         }
         settings {
     	    development {
-    	    ...
+    	    [...]
     	    }
     	    production {
-    	    ...
+    	    [...]
     	    }
         }
+    }
+    
+The settings should be graphically configurable using the WYSIWYG-Constants editor:
+
+    # customsubcategory=tpageconfigurationmetadev=tpages: meta [development]
+    meta {
+        #cat=plugin.tx_tpages/tpageconfigurationmetadev/a; type=string; label=<meta name="robots" content="" />
+        robots = NOINDEX,NOFOLLOW,NOARCHIVE
     }
 
 <code>Partials/Core/Page.html</code>  
