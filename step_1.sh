@@ -1,3 +1,7 @@
+#!/usr/bin/env bash
+
+DOMAIN=deploy.domain.markkom.net
+
 echo "#########################################"
 echo "# MARKKOM Installer for TYPO3.CMS 6.2.x #"
 echo "#########################################"
@@ -5,7 +9,9 @@ echo "#########################################"
 echo "Roooarrr!"
 echo "#########################################"
 echo "# STEP 1 [BEGIN]                        #"
-echo "#########################################"
+echo "########################################
+
+cd ~/webseiten/entwicklung/$DOMAIN/
 
 git clone https://github.com/FluidTYPO3/flux.git --depth 1 typo3/typo3conf/ext/flux
 cd typo3/typo3conf/ext/flux 
