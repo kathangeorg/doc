@@ -119,7 +119,10 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
 ##### Templates and Configuration
 
 <code>Partials/Core/Page.html</code>  
-Contains the Core CSS-, JS-files and Header Configuration (e.g Meta-Tags).
+Contains the Core CSS-, JS-asset-definitions and Header Configuration (e.g Meta-Tags).
+
+<code>Partials/Theme/Page.html</code>  
+Contains the Theme specific CSS-, JS-files and Header Configuration. Place all Theme related CSS- and JS-asset-definitions here.
 
 #### EXT:tcontent
 
