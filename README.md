@@ -22,4 +22,4 @@
 	|   	+-- LocalConfiguration.php
 	|   	+-- AdditionalConfiguration.php	
 	.
-	
+	.
