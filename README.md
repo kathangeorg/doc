@@ -5,17 +5,15 @@
 ### Base installation
 
 1. Create Folder <code>deploy.domain.markkom.net</code> in <code>~/webseiten/entwicklung/</code>
-2. Create Folder <code>domain.tld</code> in <code>~/webseiten/hosted/</code>
 3. Install TYPO3 via sh script
 4. Install Base Extensions via sh script
-
-### Base installation step 0
 
     #!/usr/bin/env bash
     
     # phase one: core install
     
     VERSION=6.2.3
+    DOMAIN=deploy.domain.markkom.net
 
     echo "#########################################"
     echo "# MARKKOM Installer for TYPO3.CMS 6.2.x #"
@@ -25,6 +23,9 @@
     echo "#########################################"
     echo "# STEP 0 [BEGIN]                        #"
     echo "#########################################"
+    
+    # cd
+    cd ~/$DOMAIN/
     
     # make dirs
     mkdir typo3
