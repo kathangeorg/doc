@@ -1,4 +1,21 @@
-doc
-===
+# CMS Guide
 
-Docs
+## TYPO3 6.2
+
+### Project Structure
+
+	/
+	+-- typo3
+	|   +-- fileadmin
+	|	|   +-- ext_key
+	|   +-- typo3conf
+	|   	+-- ext
+	|		|	+-- builder
+	|		|	+-- flux
+	|		|	+-- fluidpages
+	|		|	+-- fluidcontent
+	|		|	+-- vhs
+	|		|	+-- tpages [1]
+	|		|	+-- tcontent [2]
+	|   	+-- LocalConfiguration.php
+	|   	+-- AdditionalConfiguration.php	
