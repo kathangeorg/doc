@@ -36,7 +36,7 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
 
 #### EXT:tpages
 
-    tpages
+    tpages/
     ├── Classes
     │   └── Controller
     ├── Configuration
@@ -74,17 +74,29 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
             ├── Core
             │   ├── Bootstrap
             │   │   ├── css
+            │   │   │   ├── bootstrap.css
+            │   │   │   └── bootstrap.min.css
             │   │   ├── fonts
+            │   │   │   ├── glyphicons-halflings-regular.eot
+            │   │   │   ├── glyphicons-halflings-regular.svg
+            │   │   │   ├── glyphicons-halflings-regular.ttf
+            │   │   │   └── glyphicons-halflings-regular.woff
             │   │   └── js
+            │   │       ├── bootstrap.js
+            │   │       └── bootstrap.min.js
             │   ├── jQuery
             │   │   ├── js
+            │   │   │   └── jquery-1.9.1.min.js
             │   │   └── transit
+            │   │       └── js
+            │   │           └── jquery.transit.js
             │   ├── js
             │   │   ├── html5shiv.js
             │   │   ├── html5shiv.min.js
             │   │   └── respond.min.js
             │   └── modernizr
             │       └── js
+            │           └── modernizr-2.6.2.min.js
             ├── Css
             │   ├── fonts
             │   │   ├── glyphicons-halflings-regular.eot
@@ -103,6 +115,6 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
             └── Theme
                 ├── Bootstrap
                 │   └── css
+                │       └── stickyFooter.css
                 └── css
                     └── base.css
-
