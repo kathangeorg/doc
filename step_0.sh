@@ -15,7 +15,7 @@ echo "# STEP 0 [BEGIN]                        #"
 echo "#########################################"
 
 # cd
-cd ~/$DOMAIN/
+cd ~/webseiten/entwicklung/$DOMAIN/
 
 # make dirs
 mkdir typo3
