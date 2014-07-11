@@ -1,6 +1,5 @@
-v.0.0.14.07.11  
-
 # CMS Guide
+<code>v.0.0.14.07.11</code>
 
 ## TYPO3 6.2
 
@@ -14,6 +13,7 @@ v.0.0.14.07.11
     
 ### Project Structure
 
+    // generated with tree .
     /
     └── typo3_src
     └── typo3
