@@ -116,6 +116,11 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
                 └── css
                     └── base.css
 
+##### Templates and Configuration
+
+<code>Partials/Core/Page.html</code>  
+Contains the Core CSS-, JS-files and Header Configuration (e.g Meta-Tags).
+
 #### EXT:tcontent
 
     tcontent/
