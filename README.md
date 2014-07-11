@@ -116,7 +116,7 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
                 └── css
                     └── base.css
 
-##### Templates and Configuration
+##### Default Configuration
 
 <code>Configuration/TypoScript/constants.txt</code> and <code>Configuration/TypoScript/setup.txt</code>  
 Contain the default TS configuration:  
@@ -142,6 +142,8 @@ The settings should be graphically configurable using the WYSIWYG-Constants edit
         #cat=plugin.tx_tpages/tpageconfigurationmetadev/a; type=string; label=<meta name="robots" content="" />
         robots = NOINDEX,NOFOLLOW,NOARCHIVE
     }
+    
+##### Default Partials and Templates
 
 <code>Partials/Core/Page.html</code>  
 Contains the Core CSS-, JS-asset-definitions and Header Configuration (e.g Meta-Tags).
