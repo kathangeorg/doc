@@ -151,6 +151,9 @@ Contains the Core CSS-, JS-asset-definitions and Header Configuration (e.g Meta-
 <code>Partials/Theme/Page.html</code>  
 Contains the Theme specific CSS-, JS-files and Header Configuration. Place all Theme related CSS- and JS-asset-definitions here.
 
+<code>Templates/Theme/BootstrapStickyFooter.html</code>  
+A default theme (example) with sticky footer. Feel free to use it as a starting point for the theme-/customer-specific templates.
+
 #### EXT:tcontent
 
     tcontent/
