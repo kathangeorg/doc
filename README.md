@@ -30,7 +30,7 @@
 <code>[1]: EXT:tpages (Fluid pagetemplates)</code>  
 <code>[2]: EXT:tcontent (Fluid flexible content elements)</code>
     	
-### Extension Structure
+### Base Extensions
 
 We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tcontent</code> for our predefined page templates and flexible content elements. These were first generated using <code>EXT:builder</code>. Both extensions depend on <code>EXT:vhs</code> and <code>EXT:fluidpages</code> respectively <code>EXT:fluidcontent</code>. 
 
