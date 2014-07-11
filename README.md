@@ -150,16 +150,7 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
             │   ├── icon-gk.png
             │   ├── icon-markkom-64x64-in-use.png
             │   ├── icon-markkom-64x64.png
-            │   ├── icon-markkom-gumby.png
-            │   ├── icon-markkom-page.png
-            │   ├── icon-markkom.png
-            │   ├── icon-twitter.png
-            │   ├── ico_pinBlueNeu.png
-            │   ├── ico_pinBlue.png
-            │   ├── ico_pinGray.png
-            │   ├── ico_pinGreen.png
-            │   ├── ico_pin.png
-            │   └── ico_pinRed.png
+            .   ...
             └── videoJs
                 ├── css
                 │   ├── font
