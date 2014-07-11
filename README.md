@@ -21,20 +21,18 @@
     mkdir typo3_src
     ls -all -h
     
-    # fetch stable TYPO3.CMS from github
+    # fetch stable TYPO3.CMS-6.2.x from github
     cd typo3_src
-    git clone https://github.com/TYPO3/TYPO3.CMS.git --depth 1
+    wget 'https://github.com/TYPO3/TYPO3.CMS/archive/6-2-x.tar.gz'
+    tar -xf 6-2-x.tar.gz
     ls -all -h
-    cd TYPO3.CMS/
-    git checkout master
     
-    # cd into folder typo3
-    cd ../../
+    cd ../
     cd typo3
     
     # create symbolic links and index.php
-    ln -s ../typo3_src/TYPO3.CMS typo3_src
-    
+    ln -s ../typo3_src/TYPO3.CMS-6.2.x typo3_src
+        
     touch index.php
     echo -e "<?php require_once('typo3_src/index.php') ?>" > index.php
     ln -s typo3_src/typo3 typo3
