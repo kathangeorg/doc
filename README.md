@@ -20,14 +20,17 @@
         │   │   ├── fluidcontent
         │   │   ├── fluidpages
         │   │   ├── flux
-        │   │   ├── tcontent
-        │   │   ├── tpages
+        │   │   ├── tcontent [1]
+        │   │   ├── tpages [2]
         │   │   └── vhs
         │   ├── l10n
         │   ├── LocalConfiguration.php
         │   └── AdditionalConfiguration.php
+
+<code>[1]: EXT:tpages (Fluid pagetemplates)</code>  
+<code>[2]: EXT:tcontent (Fluid flexible content elements)</code>
     	
 ### Extension Structure
 
-We currently use the two extensions <code>EXT:tpages</code> (Fluid pagetemplates) and <code>EXT:tcontent</code> (Fluid flexible content elements)
+We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tcontent</code> for our predefined page templates and flexible content elements.
 
