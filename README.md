@@ -23,3 +23,5 @@
 	|   	+-- AdditionalConfiguration.php	
 	.
 	
+### Extension Structure
+	
