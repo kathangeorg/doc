@@ -34,3 +34,75 @@
 
 We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tcontent</code> for our predefined page templates and flexible content elements. These were first generated using <code>EXT:builder</code>. Both extensions depend on <code>EXT:vhs</code> and <code>EXT:fluidpages</code> respectively <code>EXT:fluidcontent</code>. 
 
+#### EXT:tpages
+
+    tpages
+    ├── Classes
+    │   └── Controller
+    ├── Configuration
+    │   ├── TsConfig
+    │   │   ├── Page
+    │   │   │   ├── config.txt
+    │   │   │   └── rte.txt
+    │   │   └── User
+    │   │       └── config.txt
+    │   └── TypoScript
+    │       ├── constants.txt
+    │       └── setup.txt
+    ├── ext_emconf.php
+    ├── ext_icon.gif
+    ├── ext_tables.php
+    └── Resources
+        ├── Private
+        │   ├── Layouts
+        │   │   ├── Content.html
+        │   │   └── Page.html
+        │   ├── Partials
+        │   │   ├── Core
+        │   │   │   └── Page.html
+        │   │   └── Theme
+        │   │       ├── Page.html
+        │   │       └── Theme.html
+        │   └── Templates
+        │       ├── Content
+        │       │   └── MyContentElement.html
+        │       └── Page
+        │           ├── BootstrapStickyFooter.html
+        │           ├── BootstrapStyleguide.html
+        │           └── MyPageTemplate.html
+        └── Public
+            ├── Core
+            │   ├── Bootstrap
+            │   │   ├── css
+            │   │   ├── fonts
+            │   │   └── js
+            │   ├── jQuery
+            │   │   ├── js
+            │   │   └── transit
+            │   ├── js
+            │   │   ├── html5shiv.js
+            │   │   ├── html5shiv.min.js
+            │   │   └── respond.min.js
+            │   └── modernizr
+            │       └── js
+            ├── Css
+            │   ├── fonts
+            │   │   ├── glyphicons-halflings-regular.eot
+            │   │   ├── glyphicons-halflings-regular.svg
+            │   │   ├── glyphicons-halflings-regular.ttf
+            │   │   └── glyphicons-halflings-regular.woff
+            │   ├── structure
+            │   │   └── tpages_structure.css
+            │   └── visual
+            │       ├── bootstrap.css
+            │       ├── doc.css
+            │       └── tpages_visual.css
+            ├── Icons
+            │   ├── Bootstrap.png
+            │   └── stickyFooter.jpg
+            └── Theme
+                ├── Bootstrap
+                │   └── css
+                └── css
+                    └── base.css
+
