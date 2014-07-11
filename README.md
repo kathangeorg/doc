@@ -14,18 +14,18 @@
         │       ├── news
         │       └── powermail
         ├── index.php
-        ├── typo3conf
-        │   ├── ext
-        │   │   ├── builder
-        │   │   ├── fluidcontent
-        │   │   ├── fluidpages
-        │   │   ├── flux
-        │   │   ├── tcontent [1]
-        │   │   ├── tpages [2]
-        │   │   └── vhs
-        │   ├── l10n
-        │   ├── LocalConfiguration.php
-        │   └── AdditionalConfiguration.php
+        └──  typo3conf
+           ├── ext
+           │   ├── builder
+           │   ├── fluidcontent
+           │   ├── fluidpages
+           │   ├── flux
+           │   ├── tcontent [1]
+           │   ├── tpages [2]
+           │   └── vhs
+           ├── l10n
+           ├── LocalConfiguration.php
+           └── AdditionalConfiguration.php
 
 <code>[1]: EXT:tpages (Fluid pagetemplates)</code>  
 <code>[2]: EXT:tcontent (Fluid flexible content elements)</code>
@@ -55,7 +55,6 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
     └── Resources
         ├── Private
         │   ├── Layouts
-        │   │   ├── Content.html
         │   │   └── Page.html
         │   ├── Partials
         │   │   ├── Core
@@ -64,8 +63,6 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
         │   │       ├── Page.html
         │   │       └── Theme.html
         │   └── Templates
-        │       ├── Content
-        │       │   └── MyContentElement.html
         │       └── Page
         │           ├── BootstrapStickyFooter.html
         │           ├── BootstrapStyleguide.html
