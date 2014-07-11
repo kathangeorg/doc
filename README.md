@@ -119,7 +119,7 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
 ##### Templates and Configuration
 
 <code>Configuration/TypoScript/constants.txt</code> and <code>Configuration/TypoScript/setup.txt</code>  
-Contains the default TS configuration:
+Contain the default TS configuration:
     
     plugin.tx_tpages {
         view {
