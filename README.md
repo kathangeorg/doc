@@ -1,6 +1,14 @@
 # CMS Guide
 
 ## TYPO3 6.2
+
+### Base installation
+
+1. Create Folder <code>deploy.domain.markkom.net</code> in <code>~/webseiten/entwicklung/</code>
+2. Create Folder <code>domain.tld</code> in <code>~/webseiten/hosted/</code>
+3. Install TYPO3 via sh script
+4. Install Base Extensions via sh script
+
 ### Base installation step 0
 
     #!/usr/bin/env bash
