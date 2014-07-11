@@ -6,6 +6,8 @@
     #!/usr/bin/env bash
     
     # phase one: core install
+    
+    VERSION=6.2.3
 
     echo "#########################################"
     echo "# MARKKOM Installer for TYPO3.CMS 6.2.x #"
@@ -23,15 +25,15 @@
     
     # fetch stable TYPO3.CMS-6.2.x from github
     cd typo3_src
-    wget 'https://github.com/TYPO3/TYPO3.CMS/archive/6-2-x.tar.gz'
-    tar -xf 6-2-x.tar.gz
+    wget 'https://github.com/TYPO3/TYPO3.CMS/archive/$VERSION.tar.gz'
+    tar -xf $VERSION.tar.gz
     ls -all -h
     
     cd ../
     cd typo3
     
     # create symbolic links and index.php
-    ln -s ../typo3_src/TYPO3.CMS-6.2.x typo3_src
+    ln -s ../typo3_src/TYPO3.CMS-$VERSION typo3_src
         
     touch index.php
     echo -e "<?php require_once('typo3_src/index.php') ?>" > index.php
