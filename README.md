@@ -73,12 +73,13 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
         │   │   │   └── Page.html
         │   │   └── Theme
         │   │       ├── Page.html
-        │   │       └── Theme.html
         │   └── Templates
-        │       └── Page
-        │           ├── BootstrapStickyFooter.html
-        │           ├── BootstrapStyleguide.html
-        │           └── MyPageTemplate.html
+        │   │   ├── Core
+        │           └── Page
+        │               ├── BootstrapStickyFooter.html
+        │               ├── BootstrapStyleguide.html
+        │               └── MyPageTemplate.html
+        │   │   ├── Theme
         └── Public
             ├── Core
             │   ├── Bootstrap
