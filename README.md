@@ -120,6 +120,8 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
             │       ├── doc.css
             │       └── tpages_visual.css
             ├── Icons
+            │   ├── Core
+            │   ├── Theme
             │   ├── Bootstrap.png
             │   └── stickyFooter.jpg
             └── Theme
