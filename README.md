@@ -16,7 +16,8 @@
     // generated with tree .
     /
     └── typo3_src
-    └── typo3
+    └── deploy
+    └── production
         ├── typo3_src -> ../typo3_src/TYPO3.CMS-6.2.x
         ├── typo3 -> typo3_src/typo3
         ├── fileadmin
