@@ -18,7 +18,7 @@
     └── typo3_src
     └── deploy
     └── production
-        ├── typo3_src -> ../typo3_src/TYPO3.CMS-6.2.x
+        ├── typo3_src -> ../typo3_src/TYPO3.CMS-6-2-6
         ├── typo3 -> typo3_src/typo3
         ├── fileadmin
         │   └── admin
@@ -33,14 +33,17 @@
            │   ├── flux
            │   ├── tcontent [1]
            │   ├── tpages [2]
-           │   ├── tconfig [3]
+           │   ├── tpage [3]
+(          │   ├── tconfig [4])
            │   └── vhs
            ├── l10n
            ├── LocalConfiguration.php
            └── AdditionalConfiguration.php
 
-<code>[1]: EXT:tpages (Fluid pagetemplates)</code>  
-<code>[2]: EXT:tcontent (Fluid flexible content elements)</code>
+<code>[1]: EXT:tcontent (Fluid flexible content elements)</code>
+<code>[2]: EXT:tpages (Fluid pagetemplates)</code>  
+<code>[3]: EXT:tpage (Customer specific Fluid pagetemplates)</code>
+
     	
 ### Base Extensions
 
