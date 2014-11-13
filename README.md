@@ -49,7 +49,7 @@
     	
 ### Base Extensions
 
-We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tcontent</code> for our predefined page templates and flexible content elements. These were first generated using <code>EXT:builder</code>. Both extensions depend on <code>EXT:vhs</code> and <code>EXT:fluidpages</code> respectively <code>EXT:fluidcontent</code>. 
+We currently use the three extensions <code>EXT:tpages</code>, <code>EXT:tpage</code> and <code>EXT:tcontent</code> for our predefined page templates and flexible content elements. These were first generated using <code>EXT:builder</code>. Both extensions depend on <code>EXT:vhs</code> and <code>EXT:fluidpages</code> respectively <code>EXT:fluidcontent</code>. 
 
 #### EXT:tpages
 
@@ -76,33 +76,31 @@ We currently use the two extensions <code>EXT:tpages</code> and <code>EXT:tconte
         │   ├── Partials
         │   │   ├── Core
         │   │   │   └── Page.html
-        │   │   └── Theme
-        │   │       ├── Page.html
         │   └── Templates
         │   │   ├── Core
         │           └── Page
-        │               ├── BootstrapStickyFooter.html
-        │               ├── BootstrapStyleguide.html
-        │               └── MyPageTemplate.html
-        │   │   ├── Theme
+        │               ├── BootstrapStickyFooterTable.html
+        │               └── BootstrapStyleguide.html
         └── Public
-            ├── Core
-            │   ├── Bootstrap
-            │   │   ├── css
-            │   │   │   ├── bootstrap.css
-            │   │   │   └── bootstrap.min.css
-            │   │   ├── fonts
-            │   │   │   ├── glyphicons-halflings-regular.eot
-            │   │   │   ├── glyphicons-halflings-regular.svg
-            │   │   │   ├── glyphicons-halflings-regular.ttf
-            │   │   │   └── glyphicons-halflings-regular.woff
-            │   │   └── js
-            │   │       ├── bootstrap.js
-            │   │       └── bootstrap.min.js
-            │   ├── jQuery
-            │   │   ├── js
-            │   │   │   └── jquery-1.9.1.min.js
-            │   │   └── transit
+            ├── Assets
+            │   ├── Core
+            │   │   ├──Libraries
+            │   │       ├── Bootstrap
+            │   │   │       ├── css
+            │   │   │   │       ├── bootstrap.css
+            │   │   │   │       └── bootstrap.min.css
+            │   │           ├── fonts
+            │   │   │           ├── glyphicons-halflings-regular.eot
+            │   │   │           ├── glyphicons-halflings-regular.svg
+            │   │   │           ├── glyphicons-halflings-regular.ttf
+            │   │   │           └── glyphicons-halflings-regular.woff
+            │   │            └── js
+            │   │               ├── bootstrap.js
+            │   │               └── bootstrap.min.js
+        │               ├── jQuery
+            │   │            ├── js
+            │   │   │           └── jquery-1.9.1.min.js
+            │   │               └── transit
             │   │       └── js
             │   │           └── jquery.transit.js
             │   ├── js
