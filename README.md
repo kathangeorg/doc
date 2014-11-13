@@ -94,15 +94,16 @@ We currently use the three extensions <code>EXT:tpages</code>, <code>EXT:tpage</
             │   │   │           ├── glyphicons-halflings-regular.svg
             │   │   │           ├── glyphicons-halflings-regular.ttf
             │   │   │           └── glyphicons-halflings-regular.woff
-            │   │            └── js
+            │   │   │          └── js
             │   │               ├── bootstrap.js
             │   │               └── bootstrap.min.js
-        │               ├── jQuery
-            │   │            ├── js
+            │           ├── jQuery
+            │   │           ├── js
             │   │   │           └── jquery-1.9.1.min.js
-            │   │               └── transit
-            │   │       └── js
-            │   │           └── jquery.transit.js
+            │   │               └── Plugins
+            │   │                   └── transit
+            │   │                       └── js
+            │   │                           └── jquery.transit.js
             │   ├── js
             │   │   ├── html5shiv.js
             │   │   ├── html5shiv.min.js
