@@ -40,8 +40,8 @@
            ├── LocalConfiguration.php
            └── AdditionalConfiguration.php
 
-<code>[1]: EXT:tcontent (Fluid flexible content elements)</code>
-<code>[2]: EXT:tpages (Fluid pagetemplates)</code>  
+<code>[1]: EXT:tcontent (Fluid flexible content elements)</code>\\
+<code>[2]: EXT:tpages (Fluid pagetemplates)</code>\\
 <code>[3]: EXT:tpage (Customer specific Fluid pagetemplates)</code>
 
     	
