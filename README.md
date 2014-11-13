@@ -167,11 +167,15 @@ The settings should be graphically configurable using the WYSIWYG-Constants edit
 <code>Partials/Core/Page.html</code>  
 Contains the Core CSS-, JS-asset-definitions and Header Configuration (e.g Meta-Tags).
 
-<code>Partials/Theme/Page.html</code>  
+<code>Templates/Theme/BootstrapStickyFooterTable.html</code>  
+A default theme (example) with sticky footer. Feel free to use it as a starting point for the theme-/customer-specific templates.
+
+#### EXT:tpage
+
+<code>Partials/Default/Page.html</code>  
 Contains the Theme specific CSS-, JS-files and Header Configuration. Place all Theme related CSS- and JS-asset-definitions here.
 
-<code>Templates/Theme/BootstrapStickyFooter.html</code>  
-A default theme (example) with sticky footer. Feel free to use it as a starting point for the theme-/customer-specific templates.
+
 
 #### EXT:tcontent
 
