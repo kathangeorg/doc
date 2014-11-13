@@ -34,7 +34,7 @@
            │   ├── tcontent [1]
            │   ├── tpages [2]
            │   ├── tpage [3]
-(          │   ├── tconfig [4])
+        (  │   ├── tconfig [4])
            │   └── vhs
            ├── l10n
            ├── LocalConfiguration.php
