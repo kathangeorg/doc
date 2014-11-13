@@ -1,5 +1,5 @@
 # CMS Guide
-<code>v.0.0.14.07.11</code>
+<code>v.0.0.14.11.13</code>
 
 ## TYPO3 6.2
 
