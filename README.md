@@ -1,5 +1,5 @@
 # CMS Guide
-<code>v.0.0.14.11.13</code>
+<code>v.0.0.15.01.23</code>
 
 ## TYPO3 6.2
 
@@ -15,8 +15,10 @@
 
     // generated with tree .
     /
+    └── migrations
     └── typo3_src
-    └── deploy
+    └── prototype
+    └── development
     └── production
         ├── typo3_src -> ../typo3_src/TYPO3.CMS-6-2-6
         ├── typo3 -> typo3_src/typo3
