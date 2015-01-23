@@ -39,7 +39,7 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
            ├── LocalConfiguration.php
            └── AdditionalConfiguration.php
 
-
+#### Legende
 
     [*]: Symlinks auf Dateien sind Bei Domainfactory leider nicht möglich. 
     Daher inkludieren wir die index.php via "<?php require_once('typo3_src/index.php') ?>"
@@ -48,9 +48,11 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
 <code>[1]: EXT:t2config :: Basiskonfiguration für TYPO3 (TypoScript, TsConfig...)</code>
 
 <code>[2]: EXT:t2page :: Basis Template (Bootstrap, jQuery...)</code>
+
 <code>[2a]: EXT:t2pagecustom :: Kundenspezifische Templates</code>
 
 <code>[3]: EXT:t2content :: Basis Flexible Content Elemente (Fluid, VHS...)</code>
+
 <code>[3a]: EXT:t2contentcustom :: Kundenspezifische Content-Konfiguration und Flexible Content Elemente</code>
 
     	
