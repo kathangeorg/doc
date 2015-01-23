@@ -69,7 +69,7 @@ Aktuell <code>150123</code> setzen wir die TYPO3 CMS Version <code>6.2.x</code> 
     	
 ### Basis Extensions
 
-Aktuell kommen fünf von MARKKOM entwickelte Extensions (Baukasten) zum Einsatz - <code>EXT:t2config [1]</code>, <code>EXT:t2page [2]</code>, <code>EXT:t2pagecustom [2a]</code>, <code>EXT:t2content [3]</code> und <code>EXT:t2content [3a]</code>.
+Aktuell kommen fünf von MARKKOM entwickelte Extensions (Baukasten) zum Einsatz - <code>EXT:t2config [1]</code>, <code>EXT:t2page [2]</code>, <code>EXT:t2pagecustom [2a]</code>, <code>EXT:t2content [3]</code> und <code>EXT:t2contentcustom [3a]</code>.
 
 for our predefined page templates and flexible content elements. These were first generated using <code>EXT:builder</code>. Both extensions depend on <code>EXT:vhs</code> and <code>EXT:fluidpages</code> respectively <code>EXT:fluidcontent</code>. 
 
