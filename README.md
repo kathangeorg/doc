@@ -5,7 +5,7 @@
 
 ## TYPO3 6.2
 
-Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Das MARKKOM CMS Manual dokumentiert die Struktur eines TYPO3 Projekts.
+Aktuell <code>150123</code> setzen wir die TYPO3 CMS Version <code>6.2.x</code> ein. Das <code>MARKKOM CMS Manual</code> dokumentiert die Struktur eines TYPO3 Projekts.
 
 ### Projekt Struktur
 
