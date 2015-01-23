@@ -1,11 +1,11 @@
-# MARKKOM CMS Guide
+# MARKKOM CMS Manual
 <code>
     v.0.0.15.01.23
 </code>
 
 ## TYPO3 6.2
 
-Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKOM CMS Guide dokumentiert die Struktur eines TYPO3 Projekts.
+Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Das MARKKOM CMS Manual dokumentiert die Struktur eines TYPO3 Projekts.
 
 ### Projekt Struktur
 
@@ -41,24 +41,29 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
 
 #### Legende
 
-    [*]: index.php
+    [*] index.php
         Symlinks auf Dateien sind Bei Domainfactory leider nicht möglich. 
         Daher inkludieren wir die index.php via "<?php require_once('typo3_src/index.php') ?>"
         
-    [1]: EXT:t2config
+    [1] EXT:t2config
         Basiskonfiguration für TYPO3
-        In der EXT werden alle Basiskonfigurationen (TypoScript, TsConfig Page und User) vorgenommen. 
+        Hier werden alle Basiskonfigurationen (TypoScript, TsConfig Page und User) vorgenommen. 
         Auch werden hier die Standard SEO-Einstellungen (für die EXT:metaseo) vorgenommen.
         Daneben werden Standard TypoScript Module (Navigation, Breadcrumb...) definiert. 
     
-    [2]: EXT:t2page
-        Basis Template (Bootstrap, jQuery...)
+    [2] EXT:t2page
+        Basis Template/BackendLayout Konfiguration
+        Hier werden wir die Basis Einstellungen für die Page-Templates zusammengefasst.
+        Daneben werden alle Standard-Libraries (Bootstrap, jQuery, jQuery Transit...) eingebunden.
+        
+    [2a] EXT:t2pagecustom
+        Kundenspezifische Templates/Backend Layouts
 
-<code>[2a]: EXT:t2pagecustom :: Kundenspezifische Templates</code>
-
-<code>[3]: EXT:t2content :: Basis Flexible Content Elemente (Fluid, VHS...)</code>
-
-<code>[3a]: EXT:t2contentcustom :: Kundenspezifische Content-Konfiguration und Flexible Content Elemente</code>
+    [3] EXT:t2content
+        Fluid-Content-Element Sammlung
+        
+    [3a] EXT:t2contentcustom
+        Kundenspezifische Konfiguration der EXT:t2content Elemente und Content Elemente
 
     	
 ### Base Extensions
