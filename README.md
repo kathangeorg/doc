@@ -29,25 +29,29 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
            │   ├── fluidcontent
            │   ├── fluidpages
            │   ├── flux
-           │   ├── tcontent [1]
-           │   ├── tpages [2]
-           │   ├── tpage [3]
-        (  │   ├── tconfig [4])
+           │   ├── t2config [1]
+           │   ├── t2page [2]
+           │   ├── t2pagecustom [2a]
+           │   ├── t2content [3]
+           │   ├── t2contentcustom [3a]
            │   └── vhs
            ├── l10n
            ├── LocalConfiguration.php
            └── AdditionalConfiguration.php
 
 
+
     [*]: Symlinks auf Dateien sind Bei Domainfactory leider nicht möglich. 
     Daher inkludieren wir die index.php via "<?php require_once('typo3_src/index.php') ?>"
 
 
-<code>[1]: EXT:tcontent (Fluid flexible content elements)</code>
+<code>[1]: EXT:t2config :: Basiskonfiguration für TYPO3 (TypoScript, TsConfig...)</code>
 
-<code>[2]: EXT:tpages (Fluid pagetemplates)</code>
+<code>[2]: EXT:t2page :: Basis Template (Bootstrap, jQuery...)</code>
+<code>[2a]: EXT:t2pagecustom :: Kundenspezifische Templates</code>
 
-<code>[3]: EXT:tpage (Customer specific Fluid pagetemplates)</code>
+<code>[3]: EXT:t2content :: Basis Flexible Content Elemente (Fluid, VHS...)</code>
+<code>[3a]: EXT:t2contentcustom :: Kundenspezifische Content-Konfiguration und Flexible Content Elemente</code>
 
     	
 ### Base Extensions
