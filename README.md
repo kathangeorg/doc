@@ -16,13 +16,13 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
     └── prototype
     └── development
     └── production
-        ├── typo3_src -> ../typo3_src/TYPO3.CMS-6-2-6
+        ├── typo3_src -> ../typo3_src/TYPO3.CMS-6-2-x
         ├── typo3 -> typo3_src/typo3
         ├── fileadmin
         │   └── admin
-        │       ├── news
-        │       └── powermail
-        ├── index.php
+        │       ├── ...
+        │       └── ...
+        ├── index.php -> typo3/index.php [*]
         └──  typo3conf
            ├── ext
            │   ├── builder
@@ -37,6 +37,10 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
            ├── l10n
            ├── LocalConfiguration.php
            └── AdditionalConfiguration.php
+
+<code>
+    [*]: Symlinks sind Bei Domainfactory leider nicht möglich, daher inkludieren wir die index.php via <?php  require_once('typo3_src/index.php') ?> 
+</code>
 
 <code>[1]: EXT:tcontent (Fluid flexible content elements)</code>
 
