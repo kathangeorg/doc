@@ -41,13 +41,18 @@ Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKO
 
 #### Legende
 
-    [*]: Symlinks auf Dateien sind Bei Domainfactory leider nicht möglich. 
-    Daher inkludieren wir die index.php via "<?php require_once('typo3_src/index.php') ?>"
-
-
-<code>[1]: EXT:t2config :: Basiskonfiguration für TYPO3 (TypoScript, TsConfig...)</code>
-
-<code>[2]: EXT:t2page :: Basis Template (Bootstrap, jQuery...)</code>
+    [*]: index.php
+        Symlinks auf Dateien sind Bei Domainfactory leider nicht möglich. 
+        Daher inkludieren wir die index.php via "<?php require_once('typo3_src/index.php') ?>"
+        
+    [1]: EXT:t2config
+        Basiskonfiguration für TYPO3
+        In der EXT werden alle Basiskonfigurationen (TypoScript, TsConfig Page und User) vorgenommen. 
+        Auch werden hier die Standard SEO-Einstellungen (für die EXT:metaseo) vorgenommen.
+        Daneben werden Standard TypoScript Module (Navigation, Breadcrumb...) definiert. 
+    
+    [2]: EXT:t2page
+        Basis Template (Bootstrap, jQuery...)
 
 <code>[2a]: EXT:t2pagecustom :: Kundenspezifische Templates</code>
 
