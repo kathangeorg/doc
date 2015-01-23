@@ -1,17 +1,13 @@
-# CMS Guide
-<code>v.0.0.15.01.23</code>
+# MARKKOM CMS Guide
+<code>
+    v.0.0.15.01.23
+</code>
 
 ## TYPO3 6.2
 
-### Base installation
+Aktuell <code>1501</code> setzen wir die TYPO3 CMS Version 6.2.x ein. Der MARKKOM CMS Guide dokumentiert die Struktur eines TYPO3 Projekts.
 
-1. Create Folder <code>deploy.domain.markkom.net</code> in <code>~/webseiten/entwicklung/</code>
-3. Install TYPO3 via sh script
-4. Install Base Extensions via sh script
-
-    
-    
-### Project Structure
+### Projekt Struktur
 
     // generated with tree .
     /
